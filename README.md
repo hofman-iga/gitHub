@@ -52,4 +52,4 @@ As next steps below functionalities and facilities are planned to be added:\
 	- unit tests\
 	- retrieving more information regarding users and their repositories\
 	- endpoint enabling displaying repositories of organizations\
-	- displaying private repositories to which user has access\
+	- displaying private repositories to which user has access

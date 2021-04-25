@@ -49,6 +49,7 @@ Endpoint enabling displaying total number of stars in all user's repositories.\
 
 ## Next steps
 As next steps below functionalities and facilities are planned to be added:\
-	- unit tests
+	- unit tests\
+	- retrieving more information regarding users and their repositories\
 	- endpoint enabling displaying repositories of organizations\
 	- displaying private repositories to which user has access\

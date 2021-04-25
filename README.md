@@ -4,10 +4,12 @@
 * [Technologies](#technologies)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Next steps](#next-steps)
 
 ## General info
-This project is a REST API using GitHub API to display user's public repositories - repositories' name and number of stars - in JSON format. It also provides total number of stars for all user's repositories\
-Users and parking spaces data is kept in MySQL Database.\
+This project is a REST API using GitHub API (https://api.github.com/) to display user's public GitHub repositories - repositories' name and number of stars - in JSON format. It also provides total number of stars for all user's repositories.\
+To extract data from GitHub API json parser was used.\
+Project was organized in accordance with MVC architecture.\
 \
 Swagger UI was built to the project, so that it is easier to understand what endpoints are available.
   
@@ -44,3 +46,9 @@ GET
 /repos/stars/{userLogin} \
 Endpoint enabling displaying total number of stars in all user's repositories.\
   - userLogin - user's GitHub login
+
+## Next steps
+As next steps below functionalities and facilities are planned to be added:\
+	- unit tests
+	- endpoint enabling displaying repositories of organizations\
+	- displaying private repositories to which user has access\
